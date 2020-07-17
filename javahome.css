@@ -14,10 +14,10 @@
     padding: 20px 0px 20px 0px;
 }
 .jumbotron {
-    padding: 70px 30px 70px 30px;
-    margin: 0px auto;
+    padding: 30px 30px 50px 30px;
     background:#e6eff7;
-    color: #3f3fbf;
+    font-size: 90%;
+    color: #0f0f0f;
 }
 .address {
     font-size: 80%;
@@ -31,11 +31,16 @@ body {
 .navbar-dark {
     background-color: #512DA8;
 }
-.sidenav {
-    margin: 0px;
-    
+.nav-item a {
+    color: #bcbcc4;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
 }
-.content {
+.nav-item a:hover {
+    color: #ecf4fc;
+}
+/* .content {
     background-color:#e6eff7;
 }
   .sidenav a {
@@ -57,14 +62,21 @@ body {
 
   .sidenav-content {
       margin-top: 1px;
-  }
+  } */
 
   .jumbotron-java {
     padding: 5px 15px 15px 15px;
-    margin: 0px auto;
+    margin-top: 15px;
     background:#e6eff7;
     color: #3f3fbf;
 }
 .navbar-dark-java {
     background-color: #1c2c3c;
+}
+.jumbo-item li a {
+    color: #5f50e6;
+    text-decoration: none;
+}
+.jumbo-item li a:hover {
+    color: darkorange;
 }
