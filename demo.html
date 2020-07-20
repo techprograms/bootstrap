@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="demo.css">
+        <title>Demo</title>
+        <script>
+            function toggleSidebar(){
+                document.getElementById('sidebar').classList.toggle('active');
+            }
+        </script>
+    </head>
+    <body>
+        <div id="sidebar">
+            <div class="toggle-btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </body>
+</html>
